@@ -4,7 +4,7 @@ This is a repository dedicated for training acoustic models of Hong Kong Cantone
 
 ## Acoustic models
 Acoustic models of Hong Kong Cantonese are available in `pretrained_models/`:
-- `acoustic_model_cv15_train.zip`: model trained using the `train` set from Common Voice Hong Kong Chinese corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
+- `acoustic_model_cv15_train.zip`: model trained using the `train` set (~10hrs) from Common Voice Hong Kong Chinese corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
 - `acoustic_model_cv15_validated.zip` (coming soon): model trained using the `validated` set from Common Voice Hong Kong Chinese corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
 
 ## Tutorials
