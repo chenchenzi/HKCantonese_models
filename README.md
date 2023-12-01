@@ -16,6 +16,7 @@ The pre-trained acoustic models of Hong Kong Cantonese are available in `pretrai
 
 `cv15_validated_lexicon.txt` and `cv15_validated_lexicon.dict` contain the lexicon in the Common Voice Hong Kong Chinese Corpus 15.0, which is over 4800 entries. The former is in non-probabilistic format and the latter includes pronunciation and silence probabilities.
 
+<br>
 
 ## Alignment using Montreal Forced Aligner
 
@@ -24,6 +25,8 @@ An example of using the pre-trained acoustic model is as follows:
 mfa align [OPTIONS] corpus_directory dictionary acoustic_model_cv15_validated.zip
           output_directory
 ```
+
+<br>
 
 ## Tutorials
 
