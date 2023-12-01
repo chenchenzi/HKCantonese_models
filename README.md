@@ -10,6 +10,7 @@ The pre-trained acoustic models of Hong Kong Cantonese are available in `pretrai
 
 - `acoustic_model_cv15_validated.zip`: model trained using the `validated` set (~106.5 hrs, 2325 speakers) from Common Voice Hong Kong Chinese corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
 
+<br>
 
 ## Alignment using Montreal Forced Aligner
 
