@@ -6,11 +6,16 @@ This is a repository dedicated for pre-trained acoustic models of Hong Kong Cant
 
 The pre-trained acoustic models of Hong Kong Cantonese are available in `pretrained_models/`:
 
-- `acoustic_model_cv15_train.zip`: model trained using the `train` set (~10 hrs) from Common Voice Hong Kong Chinese corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
+- `acoustic_model_cv15_train.zip`: model trained using the `train` set (~10 hrs) from Common Voice Hong Kong Chinese Corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
 
-- `acoustic_model_cv15_validated.zip`: model trained using the `validated` set (~106.5 hrs, 2325 speakers) from Common Voice Hong Kong Chinese corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
+- `acoustic_model_cv15_validated.zip`: model trained using the `validated` set (~106.5 hrs, 2325 speakers) from Common Voice Hong Kong Chinese Corpus (Common Voice Corpus 15.0 updated on 9/14/2023).
 
 <br>
+
+## Dictionaries
+
+`cv15_validated_lexicon.txt` and `cv15_validated_lexicon.dict` contain the lexicon in the Common Voice Hong Kong Chinese Corpus 15.0, which is over 4800 entries. The former is in non-probabilistic format and the latter includes pronunciation and silence probabilities.
+
 
 ## Alignment using Montreal Forced Aligner
 
@@ -21,6 +26,7 @@ mfa align [OPTIONS] corpus_directory dictionary acoustic_model_cv15_validated.zi
 ```
 
 ## Tutorials
+
 1. [Training acoustic models using the Kaldi recipe](https://chenzixu.rbind.io/resources/3asr/sr3/)
    
    The relevant scripts are available in `kaldi_tutorial_scripts/`.
