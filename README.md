@@ -1,6 +1,6 @@
 # HKCantonese_models
 
-This is a repository dedicated for pre-trained acoustic models of Hong Kong Cantonese and Cantonese forced alignment.
+This is a repository dedicated for pre-trained acoustic models of Hong Kong Cantonese and Cantonese forced alignment using Montreal Forced Aligner (MFA).
 
 ## Acoustic models
 
